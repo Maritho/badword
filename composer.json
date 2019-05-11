@@ -1,0 +1,14 @@
+{
+    "name": "maritho/badword",
+    "description": "package filter badwords filter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martua Nasution",
+            "email": "marithonst@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
