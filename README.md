@@ -1,9 +1,5 @@
 # Badword Filter Laravel
 
-## Configuration
-install with composer
-
-
 ### Requirements
 - [Laravel >=5.7](https://laravel.com/)
 - [PHP >= 7.1](https://www.php.net/)
