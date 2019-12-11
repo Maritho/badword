@@ -1,4 +1,4 @@
-# Bedword Filter Laravel
+# Badword Filter Laravel
 
 ## Configuration
 install with composer
