@@ -13,7 +13,7 @@ class BadwordServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // 
+
     }
 
     /**
@@ -23,6 +23,14 @@ class BadwordServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
+
+        $this->publishes([
+            __DIR__.'/config/badword.php' => config_path('badword.php'),
+        ]);
+
+        $this->publishes([
+            __DIR__.'/database/seeds/B' => config_path('badword.php'),
+        ]);
     }
 }
