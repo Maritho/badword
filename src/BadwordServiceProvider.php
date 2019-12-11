@@ -30,7 +30,7 @@ class BadwordServiceProvider extends ServiceProvider
         ]);
 
         $this->publishes([
-            __DIR__.'/database/seeds/B' => config_path('badword.php'),
+            __DIR__.'/database/migrations/2019_05_12_120510_create_badwords_table.php' => database_path('migrations/2019_05_12_120510_create_badwords_table.php'),
         ]);
     }
 }
