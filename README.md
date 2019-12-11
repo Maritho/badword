@@ -1,7 +1,7 @@
 # Bedword Filter Laravel
 
 ## Configuration
-insall with composer
+install with composer
 
 
 ### Requirements
